@@ -1,0 +1,93 @@
+/* You can add global styles to this file, and also import other style files */
+h1 {
+  font-size: 2px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body {
+  margin: 8px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+footer {
+
+  background: linear-gradient(340deg, #0000000d, #da8ebc), /* Prima sfumatura */
+  linear-gradient(45deg, #d1717e, #5e45c2 80%); /* Seconda sfumatura */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+main {
+  flex-grow: 1; /* Makes main content take up remaining space */
+}
+
+.tool-bar{
+  margin: 20px;
+  ;
+}
+
+.logo-img{
+  height: 50px;
+  font-size: 40px;
+}
+
+.tool-bar{
+  background-color: #81008196;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  display: flex; /* Attiva il layout flex */
+  justify-content: space-between; /* Spaziatura tra gli elementi */
+  align-items: center; /* Allinea verticalmente gli elementi al centro */
+  color: white; /* Colore del testo */
+}
+
+
+.logo-title {
+  display: flex; /* Mantieni il logo e il titolo insieme */
+  align-items: center; /* Allinea verticalmente il logo e il titolo */
+  color: white;
+  font-family: monospace;
+  font-size: xx-large;
+}
+
+.logo-img {
+  height: 40px; /* Altezza dell'immagine del logo */
+  margin-right: 10px; /* Margine a destra tra il logo e il titolo */
+}
+
+.spacer {
+  flex: 1; /* Questo span occupa tutto lo spazio disponibile per spingere il pulsante a destra */
+}
+

@@ -1,0 +1,6 @@
+version: "27.2.0"
+services:
+  app:
+    image: my-angular-app
+    ports:
+      - 4200:4200
